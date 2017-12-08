@@ -1,9 +1,10 @@
-## Translate
-
-![screencast](./screencast.png)
+<center>
+  <h2>Translate</h2>
+  <img width="50%" src="./screencast.png" />
+</center>
 
 ### License
 
 This project under the MIT licence .
 
-> copyright to [lsong<hi@lsong.org>](https://lsong.org) @ 2017
+&copy;copyright to [lsong&lt;hi@lsong.org&gt;](https://lsong.org) @ 2017
