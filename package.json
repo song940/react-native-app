@@ -1,10 +1,12 @@
 {
-  "name": "MyApp",
+  "name": "react-native-app",
   "version": "0.0.1",
   "private": true,
   "scripts": {
     "start": "react-native start",
-    "test": "jest"
+    "ios": "react-native run-ios",
+    "test": "jest",
+    "clean": "rm -rf ios/build"
   },
   "dependencies": {
     "react": "16.0.0",
