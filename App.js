@@ -13,11 +13,9 @@ export default class App extends Component {
   state = {}
   onPress(){
     const { text } = this.state;
-    fetch('https://api.lsong.org/translate?text=' + encodeURIComponent(text), {})
+    fetch('https://api.lsong.org/translate?text=' + encodeURIComponent(text))
     .then(res => res.json())
-    .then(res => {
-      this.setState(res);
-    })
+    .then(res => this.setState(res))
   }
   render() {
     const { translation } = this.state;
@@ -56,7 +54,8 @@ const styles = StyleSheet.create({
   },
   display: {
     width: "80%",
-    marginTop: "10%",
+    marginTop: "3%",
+    marginBottom: "3%",
     textAlign: "center",
   }
 });
